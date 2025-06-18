@@ -19,6 +19,9 @@ namespace CourseApp
             Console.WriteLine("4. Fraud Order Checker");
             Console.WriteLine("5. Student Grades Report");
             Console.WriteLine("6. Coin Flip");
+            Console.WriteLine("7. Permissions");
+            Console.WriteLine("8. VariableScope");
+            Console.WriteLine("8. SwitchStatement");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -43,6 +46,15 @@ namespace CourseApp
                     break;
                 case "6":
                     new CoinFlipConditional().FlipTheCoin();
+                    break;
+                case "7":
+                    new Permissions().AddPerms();
+                    break;
+                case "8":
+                    new VariableScope().CodeBlock();
+                    break;
+                case "9":
+                    new SwitchStatement().SwitchMethod();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
