@@ -21,7 +21,10 @@ namespace CourseApp
             Console.WriteLine("6. Coin Flip");
             Console.WriteLine("7. Permissions");
             Console.WriteLine("8. VariableScope");
-            Console.WriteLine("8. SwitchStatement");
+            Console.WriteLine("9. SwitchStatement");
+            Console.WriteLine("10. ForLoops");
+            Console.WriteLine("11. DoWhile");
+            Console.WriteLine("12. ConditionalBranching");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -54,7 +57,21 @@ namespace CourseApp
                     new VariableScope().CodeBlock();
                     break;
                 case "9":
-                    new SwitchStatement().SwitchMethod();
+                    new SwitchStatement().SwitchSKU();
+                    break;
+                case "10":
+                    new ForLoops().LoopMethod();
+                    new ForLoops().LoopMethod2();
+                    new ForLoops().ModifyArrayLoop();
+                    new ForLoops().DivisibleForLoop();
+                    break;
+                case "11":
+                    new DoWhile().DoWhileMethod();
+                    new DoWhile().Method2();
+                    new DoWhile().Method4();
+                    break;
+                case "12":
+                    new ConditionalBranching().Method1();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
