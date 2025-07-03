@@ -25,6 +25,9 @@ namespace CourseApp
             Console.WriteLine("10. ForLoops");
             Console.WriteLine("11. DoWhile");
             Console.WriteLine("12. ConditionalBranching");
+            Console.WriteLine("13. VariableDataPractice");
+            Console.WriteLine("14. Type Conversion Project");
+            Console.WriteLine("15. Helper Methods");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -72,6 +75,15 @@ namespace CourseApp
                     break;
                 case "12":
                     new ConditionalBranching().Method1();
+                    break;
+                case "13":
+                    new VariableData().VariableDataPractice();
+                    break;
+                case "14":
+                    new TypeConvProject().Method2();
+                    break;
+                case "15":
+                    new HelperMethods().Method1();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
