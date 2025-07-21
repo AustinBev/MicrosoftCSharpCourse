@@ -28,6 +28,8 @@ namespace CourseApp
             Console.WriteLine("13. VariableDataPractice");
             Console.WriteLine("14. Type Conversion Project");
             Console.WriteLine("15. Helper Methods");
+            Console.WriteLine("16. String Formatting");
+            Console.WriteLine("17. IndexOf() Substring()");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -77,13 +79,19 @@ namespace CourseApp
                     new ConditionalBranching().Method1();
                     break;
                 case "13":
-                    new VariableData().VariableDataPractice();
+                    new VariableData().Method1();
                     break;
                 case "14":
                     new TypeConvProject().Method2();
                     break;
                 case "15":
-                    new HelperMethods().Method1();
+                    new VariableData().Method2();
+                    break;
+                case "16":
+                    new VariableData().StringFormatting();
+                    break;
+                case "17":
+                    new VariableData().IndexOfSubstring();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
