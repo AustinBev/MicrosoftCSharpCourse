@@ -29,7 +29,9 @@ namespace CourseApp
             Console.WriteLine("14. Type Conversion Project");
             Console.WriteLine("15. Helper Methods");
             Console.WriteLine("16. String Formatting");
-            Console.WriteLine("17. IndexOf() Substring()");
+            Console.WriteLine("17. IndexOf() Substring() Replace() Remove()");
+            Console.WriteLine("18. VariableData");
+            Console.WriteLine("19. Challenge Project");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -92,6 +94,12 @@ namespace CourseApp
                     break;
                 case "17":
                     new VariableData().IndexOfSubstring();
+                    break;
+                case "18":
+                    new VariableData().Project();
+                    break;
+                case "19":
+                    new VariableData().ChallengeProject();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
