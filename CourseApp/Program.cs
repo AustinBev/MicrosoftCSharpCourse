@@ -32,6 +32,7 @@ namespace CourseApp
             Console.WriteLine("17. IndexOf() Substring() Replace() Remove()");
             Console.WriteLine("18. VariableData");
             Console.WriteLine("19. Challenge Project");
+            Console.WriteLine("20. Methods Practice");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -100,6 +101,17 @@ namespace CourseApp
                     break;
                 case "19":
                     new VariableData().ChallengeProject();
+                    break;
+                case "20":
+                    //new MethodPractice().Method1();
+                    //new MethodPractice().Method2();
+                    //new MethodPractice().IpAddress();
+                    //new MethodPractice().MethodChallenge1();
+                    //new MethodPractice().Method3();
+                    //new MethodPractice().CircleInfo();
+                    //new MethodPractice().ValueOrReference();
+                    //new MethodPractice().OptionalParams();
+                    new MethodPractice().DisplayEmailsChallenge();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
