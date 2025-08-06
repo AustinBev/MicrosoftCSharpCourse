@@ -33,6 +33,7 @@ namespace CourseApp
             Console.WriteLine("18. VariableData");
             Console.WriteLine("19. Challenge Project");
             Console.WriteLine("20. Methods Practice");
+            Console.WriteLine("21. Petting Zoo");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -111,7 +112,17 @@ namespace CourseApp
                     //new MethodPractice().CircleInfo();
                     //new MethodPractice().ValueOrReference();
                     //new MethodPractice().OptionalParams();
-                    new MethodPractice().DisplayEmailsChallenge();
+                    //new MethodPractice().DisplayEmailsChallenge();
+                    //new MethodPractice().ReturnMethod3();
+                    //new MethodPractice().ReturnMethodPalindrome();
+                    //new MethodPractice().ReturnMethodArrays();
+                    new MethodPractice().MethodChallenge2();
+                    break;
+                case "21":
+                    new PettingZoo().Method1();
+                    break;
+                case "22":
+                    new Minigame().Method1();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
