@@ -34,6 +34,9 @@ namespace CourseApp
             Console.WriteLine("19. Challenge Project");
             Console.WriteLine("20. Methods Practice");
             Console.WriteLine("21. Petting Zoo");
+            Console.WriteLine("22. Minigame");
+            Console.WriteLine("23. Debugging");
+            Console.WriteLine("24. Exception Handling");
             Console.Write("Enter number: ");
 
             string? input = Console.ReadLine();
@@ -123,6 +126,16 @@ namespace CourseApp
                     break;
                 case "22":
                     new Minigame().Method1();
+                    break;
+                case "23":
+                    //new Debugging().Method1();
+                    //new Debugging().Method2();
+                    //new Debugging().ProcessProducts();
+                    new Debugging().DebugChallenge1();
+                    break;
+                case "24":
+                    //new ExceptionHandling().Method1();
+                    new ExceptionHandling().TryCatch();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
