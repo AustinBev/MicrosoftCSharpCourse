@@ -135,7 +135,12 @@ namespace CourseApp
                     break;
                 case "24":
                     //new ExceptionHandling().Method1();
-                    new ExceptionHandling().TryCatch();
+                    //new ExceptionHandling().TryCatch();
+                    //new ExceptionHandling().CatchSpecificExceptions();
+                    //new ExceptionHandling().CoverAllExceptions();
+                    //new ExceptionHandling().CoverAllExceptions2();
+                    new ExceptionHandling().ExceptionsChallenge1();
+                    new ExceptionHandling().ExceptionsMoneyProject();
                     break;
                 default:
                     Console.WriteLine("Invalid selection. Please enter a number from 1 to 5.");
